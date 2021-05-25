@@ -36,7 +36,7 @@ This project is organized in three parts:
 * Decision Tree  => Accuracy score = 0.7916666666666666
 * Suport Vector Machine => Accuracy score = 0.7708333333333334
 
-#### In Part 3 I used kfold (model validation technique) to both algorithms: 
+#### In Part 3 I applied kfold (model validation technique): 
 
 * Applying Kfold to the Decision Tree result => 0.8
 * Applying Kfold to the Support Vector Machine result  => 0.7854166666666667
