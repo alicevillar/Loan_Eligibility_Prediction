@@ -3,6 +3,11 @@
  
 The repository contains a loan eligibility prediction based on a [Kaggle dataset](https://www.kaggle.com/ninzaami/loan-predication)
 
+### Quick Start: 
+[Check out](https://nbviewer.jupyter.org/github/alicevillar/Loan_Eligibility_Prediction/blob/main/loan_prediction.ipynb
+) a static version of the notebook with Jupyter NBViewer from the comfort of your web browser.
+
+
 ## Dependencies:
  
 * [Numpy](https://numpy.org/)
