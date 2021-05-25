@@ -31,7 +31,7 @@ This project is organized in three parts:
 
 ## Summary
 
-#### In Part 2, the accuracy score I found for the Decision Tree and SVM was: 
+#### In Part 2, I found the following accuracy score for the Decision Tree and SVM models : 
 
 * Decision Tree  => Accuracy score = 0.7916666666666666
 * Suport Vector Machine => Accuracy score = 0.7708333333333334
