@@ -41,4 +41,4 @@ In Part 3 I used kfold (model validation technique) to both algorithms:
 * Applying Kfold to the Decision Tree result => 0.8
 * Applying Kfold to the Support Vector Machine result  => 0.7854166666666667
  
-Applying Kfold, it has been demonstrated that the Decision Tree and Support Vector Machine models are not overfitting and therefore valid.
+Note that the result found with Kfold is close to the result of the Decision Tree and SVM models, which demonstrates that both the Decision Tree and SVM models are not overfitting and therefore valid.
