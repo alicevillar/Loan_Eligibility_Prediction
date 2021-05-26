@@ -4,12 +4,12 @@
 The repository contains a loan eligibility prediction based on a [Kaggle dataset](https://www.kaggle.com/ninzaami/loan-predication). 
 The primary goal of this project was to use Decision Tree and Support Vector Machines for predicting loan approval.  
 
-### Quick Start: 
+### Quick Start  
 [Check out](https://nbviewer.jupyter.org/github/alicevillar/Loan_Eligibility_Prediction/blob/main/loan_prediction.ipynb
 ) a static version of the notebook with Jupyter NBViewer from the comfort of your web browser.
 
 
-## Dependencies:
+## Dependencies 
  
 * [Numpy](https://numpy.org/)
 * [Pandas](https://pandas.pydata.org/)
@@ -17,7 +17,7 @@ The primary goal of this project was to use Decision Tree and Support Vector Mac
 * [Matplotlib](https://matplotlib.org/)
 * [Seaborn](https://seaborn.pydata.org/)
  
-## Approach:
+## Approach 
 
 This project is organized in three parts:
 
