@@ -32,12 +32,12 @@ The dataset consisted of 614 rows and 13 columns, with Y being defined as Loan_S
 
 In Part 2, I found the following accuracy score for the Decision Tree and SVM models : 
 
-* Decision Tree  => Accuracy score = 0.7916666666666666
-* Suport Vector Machine => Accuracy score = 0.7708333333333334
+* Decision Tree  => Accuracy score = 0.84375
+* Suport Vector Machine => Accuracy score = 0.7916666666666666
 
 In Part 3 I applied kfold (model validation technique): 
 
-* Applying Kfold to the Decision Tree result => 0.8
-* Applying Kfold to the Support Vector Machine result  => 0.7854166666666667
+* Applying Kfold to the Decision Tree result => 0.7958333333333334
+* Applying Kfold to the Support Vector Machine result  => 0.7916666666666666
  
 Note that the result found with Kfold is very close to the result from the Decision Tree and SVM models, which demonstrates that both the Decision Tree and SVM models are not overfitting and therefore valid.
