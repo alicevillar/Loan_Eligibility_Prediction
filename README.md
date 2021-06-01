@@ -21,9 +21,10 @@ The primary goal of this project was to use Decision Tree and Support Vector Mac
 
 This project is organized in three parts:
 
-    PART 1: Data Handling -> Importing Data with Pandas, Cleaning Data, Data description.  
-    PART 2: Data Analysis -> Supervised Machine Learning Techniques: + Decision Tree Model + Support Vector Machines (SVM).  
-    PART 3: Valuation of the Analysis -> K-folds cross validation to evaluate results locally.  
+
+* PART 1: Data Handling -> Importing Data with Pandas, Cleaning Data, Data description.  
+* PART 2: Data Analysis -> Supervised Machine Learning Techniques: + Decision Tree Model + Support Vector Machines (SVM).  
+* PART 3: Valuation of the Analysis -> K-folds cross validation to evaluate results locally.  
     
 
 ## Results
