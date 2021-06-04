@@ -21,23 +21,24 @@ The primary goal of this project was to use Decision Tree and Support Vector Mac
 
 This project is organized in three parts:
 
-    PART 1: Data Handling -> Importing Data with Pandas, Cleaning Data, Data description.  
-    PART 2: Data Analysis -> Supervised Machine learning Techniques: + Decision Tree Model + Support Vector Machine (SVM).  
-    PART 3: Valuation of the Analysis -> K-folds cross validation to evaluate results locally.  
+
+* PART 1: Data Handling -> Importing Data with Pandas, Cleaning Data, Data description.  
+* PART 2: Data Analysis -> Supervised Machine Learning Techniques: + Decision Tree Model + Support Vector Machines (SVM).  
+* PART 3: Valuation of the Analysis -> Performance measurement (accuracy score method) + K-folds cross validation to evaluate results locally.  
     
 
 ## Results
 
-The dataset consisted of 614 rows and 13 columns, with Y being defined as Loan_Status. First, I had to find out the number of missing values in each column. To see how many missing values existed in the collection I used .sum() chained on the function isnull(). Then, I used dropna() function to remove the empty fields from the data. After this, I used the replace method I replaced all Y values with boolean values. 
+The dataset consisted of 614 rows and 13 columns, with Y being defined as Loan_Status. First, I had to find the number of missing values in each column. To see how many missing values existed in the collection, I used .sum() chained on the function isnull(). Then, I used dropna() function to remove the empty fields from the dataset. After this, using the replace method, I replaced all Y values with binary values. 
 
-In Part 2, I found the following accuracy score for the Decision Tree and SVM models : 
+In Part 3, I did a performance measurement with the accuracy score method. I found the following accuracy score for the Decision Tree and SVM models : 
 
-* Decision Tree  => Accuracy score = 0.7916666666666666
-* Suport Vector Machine => Accuracy score = 0.7708333333333334
+* Decision Tree  => Accuracy score = 0.84375
+* SVM => Accuracy score = 0.7916666666666666
 
-In Part 3 I applied kfold (model validation technique): 
+Then, I applieded kfold (model validation technique): 
 
-* Applying Kfold to the Decision Tree result => 0.8
-* Applying Kfold to the Support Vector Machine result  => 0.7854166666666667
+* Applying Kfold to the Decision Tree => result: 0.7958333333333334
+* Applying Kfold to the SVM => result: 0.7916666666666666
  
 Note that the result found with Kfold is very close to the result from the Decision Tree and SVM models, which demonstrates that both the Decision Tree and SVM models are not overfitting and therefore valid.
