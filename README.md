@@ -43,4 +43,4 @@ Then, I applieded kfold (model validation technique):
 * Applying Kfold to the SVM => result:  0.79375
 * Applying Kfold to the Logistic Regression model => result:  0.7916666666666666
  
-Note that the result found with Kfold is very close to the result from the Decision Tree and SVM models, which demonstrates that both the Decision Tree and SVM models are not overfitting and therefore valid.
+Note that the result found with Kfold is very close to the result from the Decision Tree and SVM models, which demonstrates that both the Decision Tree, SVM and Logistic Regression models are not overfitting and therefore valid.
