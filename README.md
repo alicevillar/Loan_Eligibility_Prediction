@@ -1,8 +1,8 @@
  
-# Loan Prediction using Decision Tree and Support Vector Machines
+# Loan Prediction using Decision Tree, SVM and Logistic Regression
  
-The repository contains a loan eligibility prediction based on a [Kaggle dataset](https://www.kaggle.com/ninzaami/loan-predication). 
-The primary goal of this project was to use Decision Tree and Support Vector Machines for predicting loan approval.  
+The repository contains a loan eligibility prediction based on a [Kaggle dataset](https://nbviewer.jupyter.org/github/alicevillar/loan-eligibility-prediction/blob/main/loan_prediction.ipynb). 
+The primary goal of this project was to use Decision Tree, SVM and Logistic Regression for predicting loan approval.  
 
 ### Quick Start  
 [Check out](https://nbviewer.jupyter.org/github/alicevillar/Loan_Eligibility_Prediction/blob/main/loan_prediction.ipynb
@@ -34,11 +34,13 @@ The dataset consisted of 614 rows and 13 columns, with Y being defined as Loan_S
 In Part 3, I did a performance measurement with the accuracy score method. I found the following accuracy score for the Decision Tree and SVM models : 
 
 * Decision Tree  => Accuracy score = 0.84375
-* SVM => Accuracy score = 0.7916666666666666
+* SVM => Accuracy score = 0.78125
+* Logistic Regression model => Accuracy score = 0.84375
 
 Then, I applieded kfold (model validation technique): 
 
-* Applying Kfold to the Decision Tree => result: 0.7958333333333334
-* Applying Kfold to the SVM => result: 0.7916666666666666
+* Applying Kfold to the Decision Tree => result:  0.8
+* Applying Kfold to the SVM => result:  0.79375
+* Applying Kfold to the Logistic Regression model => result:  0.7916666666666666
  
-Note that the result found with Kfold is very close to the result from the Decision Tree and SVM models, which demonstrates that both the Decision Tree and SVM models are not overfitting and therefore valid.
+Note that the result found with Kfold is very close to the result from the Decision Tree and SVM models, which demonstrates that both the Decision Tree, SVM and Logistic Regression models are not overfitting and therefore valid.
