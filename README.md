@@ -2,7 +2,7 @@
 # Loan Prediction using Decision Tree, SVM and Logistic Regression
  
 The repository contains a loan eligibility prediction based on a [Kaggle dataset](https://nbviewer.jupyter.org/github/alicevillar/loan-eligibility-prediction/blob/main/loan_prediction.ipynb). 
-The primary goal of this project was to use Decision Tree, SVM and Logistic Regression for predicting loan approval.  
+The goal of this project was to use Decision Tree, SVM and Logistic Regression for predicting loan approval. I also applied kfold cross validation to evaluate the three Machine Learning models. 
 
 ### Quick Start   
 [Check out](https://nbviewer.jupyter.org/github/alicevillar/Loan_Eligibility_Prediction/blob/main/loan_prediction.ipynb
@@ -23,7 +23,7 @@ This project is organized in three parts:
 
 
 * PART 1: Data Handling -> Importing Data with Pandas, Cleaning Data, Data description.  
-* PART 2: Data Analysis -> Supervised Machine Learning Techniques: + Decision Tree Model + Support Vector Machines (SVM).  
+* PART 2: Data Analysis -> Supervised Machine Learning Techniques: + Decision Tree Model + Support Vector Machines (SVM)  + Logistic Regression.  
 * PART 3: Valuation of the Analysis -> Performance measurement (accuracy score method) + K-folds cross validation to evaluate results locally.  
     
 ## Results
